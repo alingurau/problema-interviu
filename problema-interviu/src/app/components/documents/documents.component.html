@@ -1,0 +1,15 @@
+<p>
+  <mat-toolbar>
+    <span>Documents Management</span>
+  </mat-toolbar>
+</p>
+
+<div *ngFor="let document of documents">
+
+  <h3>
+    <a [title]="document.title">
+      {{ document.name }}
+    </a>
+  </h3>
+
+</div>
